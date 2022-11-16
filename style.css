@@ -9,6 +9,7 @@
     position: fixed;
     width: 100%;
     z-index: 30;
+    
 }
 header,main{
     max-width: 1200px;
@@ -20,18 +21,19 @@ section{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 20px;
    
 }
 .logo-boolean{
     height: 30px;
+    
 }
 
 .display-flex{
     display: flex;
 }
-.suggerimenti{
+.suggerimenti,a{
     color: white;
     padding: 3px;
 }
@@ -70,7 +72,12 @@ img{
 }
 .blocchi{
     position: relative;
+    margin: 5px;
 }
-.immagine:link,.immagine1:hover{
-    background-image: url(img/1b.webp);
+
+.immagine-sfondo{
+    display: block;
+}
+.immagine:hover{
+    display: none;
 }
