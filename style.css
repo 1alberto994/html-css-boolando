@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: orange;
+    min-height: 70px;
+    position: fixed;
+    width: 100%;
+}
+header,main{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+   
+}
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+   
+}
+.logo-boolean{
+    height: 30px;
+}
+
+.display-flex{
+    display: flex;
+}
+.suggerimenti{
+    color: white;
+    padding: 3px;
+}
