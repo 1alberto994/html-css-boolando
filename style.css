@@ -11,7 +11,11 @@
     z-index: 30;
     
 }
-header,main{
+/* img{
+    width: 200px;
+    height: 300px;
+} */
+header,footer{
     max-width: 1200px;
     margin: 0 auto;
     
@@ -27,6 +31,8 @@ section{
 }
 .logo-boolean{
     height: 30px;
+    width: auto;
+
     
 }
 
@@ -37,18 +43,34 @@ section{
     color: white;
     padding: 3px;
 }
+/* img{
+    height: 400px;
+    width: 300px;
+} */
 
 .sezione-due{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+   
+    
+    
 
 
 }
 img{
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 200px;
 }
+main{
+    padding: 100px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+
 .red{
     background-color: red;
     color: white;
@@ -73,11 +95,30 @@ img{
 .blocchi{
     position: relative;
     margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
-
+.contenitore2{
+    background-color: black;
+    min-height: 70px;
+    width: 100%;
+}
+footer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .immagine-sfondo{
-    display: block;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-.immagine:hover{
+.immagine-sfondo{
+    display: none;
+}
+.blocchi:hover .immagine{
     display: none;
 }
